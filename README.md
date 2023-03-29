@@ -10,7 +10,7 @@ For .NET Framework we can use RsaProtectedConfigurationProvider or other support
 - For Web applications: **aspnet_regiis -pa "MyEncryptionKey" "NT AUTHORITY\NETWORK SERVICE"** - Grant access to the key container for the account under whitch the website is running
 - **aspnet_regiis -px "MyEncryptionKey" c:\RSA-keys.xml -pri** - Exporting key container to import it to another machine or store it in secure vault for security (with private key [-pri])
 
-## How to import RSA key to different machine
+## How to import RSA key container to different machine
 - **aspnet_regiis -pi "MyEncryptionKey" c:\RSA-keys.xml** - Import previosly created key to another or new machine
 - For Web applications: **aspnet_regiis -pa "MyEncryptionKey" "NT AUTHORITY\NETWORK SERVICE"** - Grant access to the key container for the account under whitch the website is running
 
