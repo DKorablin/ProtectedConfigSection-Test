@@ -12,6 +12,7 @@
   <ItemGroup>
     <None Update="protectedKeysSection.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<DependentUpon>App.config</DependentUpon>
     </None>
   </ItemGroup>
 

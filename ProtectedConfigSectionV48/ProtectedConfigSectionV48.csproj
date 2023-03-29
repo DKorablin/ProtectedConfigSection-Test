@@ -46,7 +46,11 @@
     <None Include="App.config" />
     <None Include="protectedKeysSection.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<DependentUpon>App.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RSA-keys.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
