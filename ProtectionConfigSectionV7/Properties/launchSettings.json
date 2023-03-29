@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProtectedConfigSectionV7": {
+      "commandName": "Project",
+      "commandLineArgs": "/P"
+    }
+  }
+}
